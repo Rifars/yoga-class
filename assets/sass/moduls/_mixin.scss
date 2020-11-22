@@ -1,0 +1,127 @@
+@use 'root';
+
+@mixin medium {
+    // navbar
+    .navbar-md{
+        // navbar items 
+        .navbar-items {
+            width: 85%;
+        }
+        // end navbar items
+
+        // navbar hamburger button
+        .navbar-hamburger{
+            width: 7%;
+        }
+        // end navbar hamburger button
+    }
+    // end navbar 
+}
+
+// tab
+@mixin tab {
+    // navbar
+    .navbar-sm{
+        // items navbar 
+        position: relative;
+        justify-content: flex-end;
+        .navbar-items{
+            // transform: translateY(-100vh);
+            width: 100%;
+            position: absolute;
+            top: 0;
+            flex-direction: column;
+            height: 100vh;
+            background-color: map-get(root.$color,'background');
+
+            li{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+        // end items navbar 
+
+        // hamburrger button
+        .navbar-hamburger{
+            z-index: 1;
+            width: 9%;
+        }
+        // end hamburger button
+    } 
+    // end navbar 
+
+}
+// end tab
+
+// hp
+@mixin hp {
+    // navbar
+    .navbar-m{
+        // items navbar 
+        position: relative;
+        justify-content: flex-end;
+        .navbar-items{
+            // transform: translateY(-100vh);
+            width: 100%;
+            position: absolute;
+            top: 0;
+            flex-direction: column;
+            height: 100vh;
+            background-color: map-get(root.$color,'background');
+
+            li{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+        // end items navbar 
+
+        // hamburrger button
+        .navbar-hamburger{
+            z-index: 1;
+            width: 10%;
+        }
+        // end hamburger button
+    } 
+    // end navbar 
+
+}
+// end hp
+
+// mini hp
+@mixin miniHp {
+    // navbar
+    .navbar-mm{
+        // items navbar 
+        position: relative;
+        justify-content: flex-end;
+        .navbar-items{
+            // transform: translateY(-100vh);
+            width: 100%;
+            position: absolute;
+            top: 0;
+            flex-direction: column;
+            height: 100vh;
+            background-color: map-get(root.$color,'background');
+
+            li{
+                a{
+                    font-size: 12px;
+                }
+            }
+        }
+        // end items navbar 
+
+        // hamburrger button
+        .navbar-hamburger{
+            z-index: 1;
+            width: 15%;
+        }
+        // end hamburger button
+    } 
+    // end navbar 
+
+}
+// end mini hp

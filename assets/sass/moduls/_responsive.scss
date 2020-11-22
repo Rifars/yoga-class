@@ -1,0 +1,15 @@
+@use 'mixin';
+
+@media only screen and (max-width:1024px) and (min-width:769px){
+    @include mixin.medium();
+}
+
+@media only screen and (max-width:768px)and (min-width:618px){
+    @include mixin.tab();
+}
+@media only screen and (max-width:617px)and (min-width:425px){
+    @include mixin.hp();
+}
+@media only screen and (max-width:424px){
+    @include mixin.miniHp();
+}
