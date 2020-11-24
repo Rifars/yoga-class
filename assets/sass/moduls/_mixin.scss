@@ -5,7 +5,7 @@
     .navbar-md{
         // navbar items 
         .navbar-items {
-            width: 85%;
+            width: 100%;
         }
         // end navbar items
 
@@ -16,6 +16,42 @@
         // end navbar hamburger button
     }
     // end navbar 
+
+    // header 
+    .header-md {
+        // header logo
+        .header-logo {
+            img {
+                width: 110px;
+            }
+        }
+        // end header logo 
+
+        // header heading
+        .header-heading{
+            margin-top: 7px;
+            h1{
+                // padding: 25px 0;
+                font-size: 3.7rem;
+            }
+        }
+        // end header heading
+
+        // header content
+        .header-content{
+            margin: 20px auto;
+            h1{
+                font-size: 1.3em;
+                padding: 20px 0;
+            }
+            p{
+                font-size: 1.1em;
+            }
+        }
+        // end header content
+
+    }
+    // end header
 }
 
 // tab
@@ -25,8 +61,13 @@
         // items navbar 
         position: relative;
         justify-content: flex-end;
+        .on {
+            transform: translateY(0) !important;
+            transition: .3s;
+        }
         .navbar-items{
-            // transform: translateY(-100vh);
+            transition: .3s;
+            transform: translateY(-100vh);
             width: 100%;
             position: absolute;
             top: 0;
@@ -46,11 +87,48 @@
         .navbar-hamburger{
             z-index: 1;
             width: 9%;
+            .line {
+                display: inline-block;
+            }
         }
         // end hamburger button
     } 
     // end navbar 
+    // header 
+    .header-sm {
+        height: 100vh;
+        // header logo
+        .header-logo {
+            padding: 20px 0;
+            img {
+                width: 90px;
+            }
+        }
+        // end header logo 
 
+        // header heading
+        .header-heading{
+            h1{
+                font-size: 3.1rem;
+            }
+        }
+        // end header heading
+
+        // header content
+        .header-content{
+            margin: 10px auto;
+            h1{
+                font-size: 1.5em;
+                padding: 20px 0;
+            }
+            p{
+                font-size: 1.2em;
+            }
+        }
+        // end header content
+
+    }
+    // end header
 }
 // end tab
 
@@ -61,8 +139,13 @@
         // items navbar 
         position: relative;
         justify-content: flex-end;
+        .on{
+            transition: .3s;
+            transform: translateY(0) !important;
+        }
         .navbar-items{
-            // transform: translateY(-100vh);
+            transform: translateY(-100vh);
+            transition: .3s;
             width: 100%;
             position: absolute;
             top: 0;
@@ -82,10 +165,49 @@
         .navbar-hamburger{
             z-index: 1;
             width: 10%;
+            .line {
+                display: inline-block;
+            }
         }
         // end hamburger button
     } 
     // end navbar 
+    // header 
+       .header-m {
+        height: 100vh;
+        // header logo
+        .header-logo {
+            padding: 20px 0;
+            img {
+                width: 90px;
+            }
+        }
+        // end header logo 
+
+        // header heading
+        .header-heading{
+            h1{
+                font-size: 2.6rem;
+            }
+        }
+        // end header heading
+
+        // header content
+        .header-content{
+            width: 50%;
+            margin: 10px auto;
+            h1{
+                font-size: 1.3em;
+                padding: 20px 0;
+            }
+            p{
+                font-size: 1em;
+            }
+        }
+        // end header content
+
+    }
+    // end header
 
 }
 // end hp
@@ -97,8 +219,14 @@
         // items navbar 
         position: relative;
         justify-content: flex-end;
+        .on{
+            transition: .3s;
+            transform: translateY(0) !important;
+        }
         .navbar-items{
+            transition: .3s;
             // transform: translateY(-100vh);
+            transform: translateY(-100vh);
             width: 100%;
             position: absolute;
             top: 0;
@@ -116,12 +244,51 @@
 
         // hamburrger button
         .navbar-hamburger{
+            // display: inline-block;
             z-index: 1;
             width: 15%;
+            .line {
+                display: inline-block;
+            }
         }
         // end hamburger button
     } 
     // end navbar 
+    // header 
+    .header-mm {
+        height: 90vh;
+        // header logo
+        .header-logo {
+            padding: 20px 0;
+            img {
+                width: 90px;
+            }
+        }
+        // end header logo 
 
+        // header heading
+        .header-heading{
+            h1{
+                font-size: 2.6rem;
+            }
+        }
+        // end header heading
+
+        // header content
+        .header-content{
+            width: 80%;
+            margin: 10px auto;
+            h1{
+                font-size: 1.3em;
+                padding: 20px 0;
+            }
+            p{
+                font-size: 1em;
+            }
+        }
+        // end header content
+
+    }
+    // end header
 }
 // end mini hp

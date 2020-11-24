@@ -7,13 +7,13 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    height: 75px;
+    height: 65px;
     align-items: center;
     background-color: map-get(root.$color,'background');
-
+   
     &-items{
         height: 100%;
-        width: 80%;
+        width: 100%;
         display: flex;
         list-style: none;
         align-items: center;
@@ -32,6 +32,8 @@
 
     // hamburger button
     &-hamburger{
+        // background-color: antiquewhite;
+        // display: none;
         height: 78%;
         width: 5%;
         display: flex;
@@ -40,7 +42,7 @@
         flex-direction: column;
 
         .line {
-            display: inline-block;
+            display: none;
             height: 10%;
             width: 63%;
             background-color: map-get(root.$color,'fontBlue');
