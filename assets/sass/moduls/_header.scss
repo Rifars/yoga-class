@@ -9,6 +9,8 @@
     background-position: bottom;
     text-align: center;
     margin: auto;
+    z-index: 1;
+    position: relative;
 
     // header logo
     &-logo{

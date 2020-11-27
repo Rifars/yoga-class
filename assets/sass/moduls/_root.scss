@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+body {
     overflow-x: none;
-    
+    background-color: white;
 }
 
 $color : (
@@ -13,4 +16,5 @@ $color : (
     'fontBlue' : #49c9d4,
     'fontWhite' : #fff,
     'FontBlack' : #3f505a,
+    'FontBlack2' : #353e44,
 );

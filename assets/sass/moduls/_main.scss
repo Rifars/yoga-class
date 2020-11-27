@@ -1,0 +1,75 @@
+@use 'mixin';
+@use 'root';
+
+.main {
+    width: 100%;
+    height: 240vh;
+    background-image: url(../images/main/bg2.2.png);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    margin-top: -53vh;
+    // main header 
+    &-header{
+        padding-top: 70vh;
+        width: 100%;
+        text-align: center;
+        margin-bottom:50px;
+        h1 {
+            text-transform: uppercase;
+            font-size: 3em;
+            font-weight: normal;
+            color: map-get(root.$color,'FontBlack');
+
+            i{
+                color: map-get(root.$color,'fontBlue');
+                margin: 0 10px;
+            }
+        }
+        .line {
+            height: 3px;
+            width: 26vw;
+            background-color: map-get(root.$color,'fontBlue');
+            margin: 15px auto 0;
+        }
+    }
+    // end main header
+    // main content
+    &-content{
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        width: 73%;
+        .left, .right {
+            
+            width: 45%;
+            line-height: 23px;
+            p{
+                color: map-get(root.$color,'FontBlack2');
+            }
+        }
+        .left {
+            text-align: right;
+        }
+    }
+    // end main content
+    // main button
+    &-button {
+        display: flex;
+        width: 83%;
+        flex-direction: row-reverse;
+        margin-top: 60px;
+        button {
+            text-transform: capitalize;
+            outline: none;
+            border: none;
+            font-size: 1em;
+            background-color: map-get(root.$color,'background');
+            color: map-get(root.$color,'fontWhite');
+            width: 150px;
+            height: 40px;
+            cursor: pointer;
+        }
+    }
+    // end main button 
+}
