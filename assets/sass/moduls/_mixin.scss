@@ -79,6 +79,57 @@
         // end main button
     }
     //end main 
+
+    // cards 
+    .cards-md {
+        margin-top: -65vh;
+
+        // card
+        .card {
+            padding-top: 90vh;
+            // card title
+            &-title{
+                width: 68%;
+                h1{
+                    font-size: 1.6em;;
+                }
+            }
+            // end card title
+
+            // card images
+            &-images {
+                img {
+                    height: 500px;
+                    width: 230px;
+                }
+            }
+            // end card images
+        }
+        // end card
+
+        // card one
+        .one{
+            .card-title{
+                width: 70%;
+            }
+        }
+        // end card one
+
+        // card two
+        .two {
+            transform: translateY(-80px);
+            top: 0;
+        }
+        // end card two
+
+        // card three
+        .three {
+            transform: translateY(-160px);
+        }
+        // end card three
+    }
+    // end cards
+
 }
 
 // tab
@@ -194,6 +245,53 @@
         // end main button
     }
     //end main 
+
+    // cards 
+    .cards-sm {
+        margin-top: -75vh;
+
+        // card
+        .card {
+            padding-top: 80vh;
+            // card title
+            &-title{
+                width: 83%;
+                h1{
+                    font-size: 1.4em;;
+                }
+            }
+            // end card title
+
+            // card images
+            &-images {
+                img {
+                    height: 440px;
+                    width: 190px;
+                }
+            }
+            // end card images
+        }
+        // end card
+        .one {
+            .card-title{
+                width: 85%;
+            }
+        }
+
+        // card two
+        .two {
+            transform: translateY(-50px);
+            top: 0;
+        }
+        // end card two
+
+        // card three
+        .three {
+            transform: translateY(-100px);
+        }
+        // end card three
+    }
+    // end cards
 }
 // end tab
 
@@ -315,7 +413,50 @@
     }
     //end main 
 
+    // cards 
+    .cards-m {
+        margin-top: -80vh;
+        align-items: center;
+        span{
+            display: inline-block;
+        }
+        // card
+        .card {
+            width: 100%;
+            padding-top: 80vh;
+            transform: translateY(0);
+            // card title
+            &-title{
+                width: 93%;
+                h1{
+                    font-size: 1.4em;;
+                }
+            }
+            // end card title
+
+            // card images
+            &-images {
+                width: 100%;
+                img {
+                    height: auto;
+                    width: 290px;
+                }
+            }
+            // end card images
+        }
+        // end card
+
+        .two{
+            display: none;
+        }
+
+        .three{
+            display: none;
+        }
+    }
+    // end cards
 }
+
 // end hp
 
 // mini hp
@@ -437,5 +578,48 @@
         // end main button
     }
     //end main 
+
+    // cards 
+    .cards-mm {
+        margin-top: -85vh;
+        align-items: center;
+        span{
+            display: inline-block;
+        }
+        // card
+        .card {
+            width: 100%;
+            padding-top: 80vh;
+            transform: translateY(0);
+            // card title
+            &-title{
+                width: 93%;
+                h1{
+                    font-size: 1.3em;;
+                }
+            }
+            // end card title
+
+            // card images
+            &-images {
+                width: 100%;
+                img {
+                    height: auto;
+                    width: 260px;
+                }
+            }
+            // end card images
+        }
+        // end card
+
+        .two{
+            display: none;
+        }
+
+        .three{
+            display: none;
+        }
+    }
+    // end cards
 }
 // end mini hp

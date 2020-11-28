@@ -1,0 +1,82 @@
+@use 'mixin';
+@use 'root';
+
+.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(../images/card/bg.png);
+    margin-top: -50vh;
+    position: relative;
+
+    span{
+        z-index: 999;
+        display: none;
+        font-size: 2em;
+        position: absolute;
+        top: 65%;
+        cursor: pointer;
+        i{
+            color: map-get(root.$color,'fontBlue');
+
+            &:hover {
+                filter: brightness(.8);
+                transition: .2s;
+            }
+        }
+    }
+    .right{
+        right: 20px;
+    }
+    .left{
+        left: 20px;
+    }
+    // card
+    .card {
+        
+        text-align: center;
+        // background-color: aqua;
+        width: 30%;
+        padding-top: 65vh;
+        box-sizing: border-box;
+
+        // card title
+        &-title{
+            margin: auto;
+            width: 55%;
+
+            h1{
+                font-weight: normal;
+                text-transform: uppercase;
+                font-size: 1.8em;
+                color: map-get(root.$color,'fontBlue');
+                margin-bottom: 20px;
+            }
+        }
+        // end card title
+
+        // card imaes
+        &-images {
+            img {
+                height: 550px;
+                width: 270px;
+            }
+        }
+        // end card images
+    }
+    // end card 
+
+    // card two
+    .two {
+        transform: translateY(-100px);
+        top: 0;
+    }
+    // end card two
+
+    // card three
+    .three {
+        transform: translateY(-200px);
+    }
+    // end card three
+}
