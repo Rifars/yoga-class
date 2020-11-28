@@ -11,6 +11,7 @@ body {
 }
 
 .navbar {
+  z-index: 999;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -203,6 +204,17 @@ body {
   .header-md .header-content p {
     font-size: 1.1em;
   }
+
+  .main-md .main-header h1 {
+    font-size: 2.5em;
+  }
+  .main-md .main-content {
+    width: 75%;
+  }
+  .main-md .main-button button {
+    width: 140px;
+    height: 35px;
+  }
 }
 @media only screen and (max-width: 768px) and (min-width: 618px) {
   .navbar-sm {
@@ -255,6 +267,25 @@ body {
   }
   .header-sm .header-content p {
     font-size: 1.2em;
+  }
+
+  .main-sm .main-header h1 {
+    font-size: 2em;
+  }
+  .main-sm .main-header .line {
+    height: 2px;
+    width: 30vw;
+  }
+  .main-sm .main-content {
+    width: 80%;
+  }
+  .main-sm .main-content .left p, .main-sm .main-content .right p {
+    font-size: 0.9em;
+  }
+  .main-sm .main-button button {
+    width: 130px;
+    height: 30px;
+    font-size: 0.8em;
   }
 }
 @media only screen and (max-width: 617px) and (min-width: 425px) {
@@ -310,6 +341,31 @@ body {
   .header-m .header-content p {
     font-size: 1em;
   }
+
+  .main-m .main-header h1 {
+    font-size: 1.8em;
+  }
+  .main-m .main-header .line {
+    height: 2px;
+    width: 38vw;
+  }
+  .main-m .main-content {
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .main-m .main-content .left, .main-m .main-content .right {
+    text-align: center;
+    width: 100%;
+  }
+  .main-m .main-content .left p, .main-m .main-content .right p {
+    font-size: 0.9em;
+    margin: 0 auto 20px;
+  }
+  .main-m .main-button button {
+    width: 130px;
+    height: 30px;
+    font-size: 0.8em;
+  }
 }
 @media only screen and (max-width: 424px) {
   .navbar-mm {
@@ -363,6 +419,31 @@ body {
   }
   .header-mm .header-content p {
     font-size: 1em;
+  }
+
+  .main-mm .main-header h1 {
+    font-size: 1.6em;
+  }
+  .main-mm .main-header .line {
+    height: 2px;
+    width: 42vw;
+  }
+  .main-mm .main-content {
+    flex-wrap: wrap;
+    width: 85%;
+  }
+  .main-mm .main-content .left, .main-mm .main-content .right {
+    text-align: center;
+    width: 100%;
+  }
+  .main-mm .main-content .left p, .main-mm .main-content .right p {
+    font-size: 0.8em;
+    margin: 0 auto 20px;
+  }
+  .main-mm .main-button button {
+    width: 125px;
+    height: 25px;
+    font-size: 0.7em;
   }
 }
 

@@ -52,6 +52,33 @@
 
     }
     // end header
+
+    // main 
+    .main-md {
+        // main header
+        .main-header {
+            h1{
+                font-size: 2.5em;
+            }
+        }
+        // end main header
+
+        // main content
+        .main-content{
+            width: 75%;
+        }
+        // end main content
+
+        // main button
+        .main-button{
+            button {
+                width: 140px;
+                height: 35px;
+            }
+        }
+        // end main button
+    }
+    //end main 
 }
 
 // tab
@@ -94,6 +121,7 @@
         // end hamburger button
     } 
     // end navbar 
+
     // header 
     .header-sm {
         height: 100vh;
@@ -129,6 +157,43 @@
 
     }
     // end header
+
+    // main 
+    .main-sm {
+        // main header
+        .main-header {
+            h1{
+                font-size: 2em;
+            }
+            .line {
+                height: 2px;
+                width: 30vw;
+            }
+        }
+        // end main header
+
+        // main content
+        .main-content{
+            width: 80%;
+            .left, .right {
+                p{
+                    font-size: 0.9em;
+                }
+            }
+        }
+        // end main content
+
+        // main button
+        .main-button{
+            button {
+                width: 130px;
+                height: 30px;
+                font-size: 0.8em;
+            }
+        }
+        // end main button
+    }
+    //end main 
 }
 // end tab
 
@@ -208,6 +273,47 @@
 
     }
     // end header
+
+    // main 
+    .main-m {
+        // main header
+        .main-header {
+            h1{
+                font-size: 1.8em;
+            }
+            .line {
+                height: 2px;
+                width: 38vw;
+            }
+        }
+        // end main header
+
+        // main content
+        .main-content{
+            flex-wrap: wrap;
+            width: 80%;
+            .left, .right {
+                text-align: center;
+                width: 100%;
+                p{
+                    font-size: 0.9em;
+                    margin: 0 auto 20px ;
+                }
+            }
+        }
+        // end main content
+
+        // main button
+        .main-button{
+            button {
+                width: 130px;
+                height: 30px;
+                font-size: 0.8em;
+            }
+        }
+        // end main button
+    }
+    //end main 
 
 }
 // end hp
@@ -290,5 +396,46 @@
 
     }
     // end header
+
+    // main 
+    .main-mm {
+        // main header
+        .main-header {
+            h1{
+                font-size: 1.6em;
+            }
+            .line {
+                height: 2px;
+                width: 42vw;
+            }
+        }
+        // end main header
+
+        // main content
+        .main-content{
+            flex-wrap: wrap;
+            width: 85%;
+            .left, .right {
+                text-align: center;
+                width: 100%;
+                p{
+                    font-size: 0.8em;
+                    margin: 0 auto 20px ;
+                }
+            }
+        }
+        // end main content
+
+        // main button
+        .main-button{
+            button {
+                width: 125px;
+                height: 25px;
+                font-size: 0.7em;
+            }
+        }
+        // end main button
+    }
+    //end main 
 }
 // end mini hp
