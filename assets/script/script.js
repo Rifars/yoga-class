@@ -8,8 +8,8 @@ const hamburgerButton = (items, chenges) => {
         
     });
 }
-hamburgerButton('.navbar-hamburger','.navbar-items');
 
+hamburgerButton('.navbar-hamburger','.navbar-items');
 let rowLeft = document.querySelector('.left i');
 let rowRight = document.querySelector('.right i');
 let card = Array.from(document.querySelectorAll('.cards .card'));

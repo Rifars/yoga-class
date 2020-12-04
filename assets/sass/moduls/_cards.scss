@@ -64,6 +64,49 @@
             }
         }
         // end card images
+
+        // card section
+        &-section{
+            width: 61%;
+            text-align: left;
+            margin: auto;
+
+            p {
+                color: map-get(root.$color,'fontWhite');
+                line-height: 1.8rem;
+                font-size: 1rem;
+                margin-bottom: 25px;
+            }
+
+            .button{
+                text-align: right;
+                margin-bottom: 50px;
+                height: 50px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                button {
+                    width: 67%;
+                    height: 35px;
+                    color: map-get(root.$color,'fontBlack');
+                    background-color: map-get(root.$color,'fontBlue');
+                    outline: none;
+                    border: none;
+                    text-transform: uppercase;
+                    font-size: 1rem;
+                    border-radius: 2px;
+                }
+
+                i {
+                    font-size: 4rem;
+                    text-align: right;
+                    color: map-get(root.$color,'fontBlue');
+                }
+
+            }
+        }
+        // end card section
     }
     // end card 
 

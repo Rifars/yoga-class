@@ -107,6 +107,30 @@
         }
         // end card
 
+        // card section 
+        .card-section{
+            p {
+                color: map-get(root.$color,'fontWhite');
+            }
+
+            .button{
+                button {
+                    width: 67%;
+                    height: 35px;
+                    font-size: .8rem;
+                    border-radius: 2px;
+                }
+
+                i {
+                    font-size: 4rem;
+                    text-align: right;
+                    color: map-get(root.$color,'fontBlue');
+                }
+
+            }
+        }
+        // end card section 
+
         // card one
         .one{
             .card-title{
@@ -277,7 +301,30 @@
                 width: 85%;
             }
         }
+        // card section 
+        .card-section{
+            width: 70%;
+            p {
+                font-size: .9rem;
+            }
 
+            .button{
+                button {
+                    width: 67%;
+                    height: 35px;
+                    font-size: .7rem;
+                    border-radius: 2px;
+                }
+
+                i {
+                    font-size: 3.5rem;
+                    text-align: right;
+                    color: map-get(root.$color,'fontBlue');
+                }
+
+            }
+        }
+        // end card section 
         // card two
         .two {
             transform: translateY(-50px);
@@ -443,6 +490,30 @@
                 }
             }
             // end card images
+
+             // card section 
+            .card-section{
+                width: 50%;
+                p {
+                    text-align: center;
+                    font-size: .8rem;
+                }
+
+                .button{
+                    button {
+                        width: 67%;
+                        height: 35px;
+                        font-size: .7rem;
+                        border-radius: 2px;
+                    }
+
+                    i {
+                        display: none;
+                    }
+
+                }
+            }
+            // end card section 
         }
         // end card
 
@@ -609,6 +680,30 @@
                 }
             }
             // end card images
+
+            // card section 
+            .card-section{
+                width: 50%;
+                p {
+                    text-align: center;
+                    font-size: .8rem;
+                }
+
+                .button{
+                    button {
+                        width: 67%;
+                        height: 35px;
+                        font-size: .6rem;
+                        border-radius: 2px;
+                    }
+
+                    i {
+                        display: none;
+                    }
+
+                }
+            }
+            // end card section 
         }
         // end card
 
