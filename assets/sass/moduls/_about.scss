@@ -3,6 +3,8 @@
 
 
 .about {
+    z-index: 999;
+    position: relative;
     height: 110vh;
     width: 100%;
     background-image: url("../images/about/bg.png");

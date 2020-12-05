@@ -330,6 +330,8 @@ body {
 }
 
 .about {
+  z-index: 999;
+  position: relative;
   height: 110vh;
   width: 100%;
   background-image: url("../images/about/bg.png");
@@ -385,6 +387,21 @@ body {
   width: 100px;
   height: 25px;
   cursor: pointer;
+}
+
+.section-images {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/section-images/bg.png);
+  background-size: cover;
+  margin-top: -18vh;
+  z-index: -999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-images h1 {
+  display: none;
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -524,6 +541,15 @@ body {
   .about-md .about-content .first p, .about-md .about-content .second p {
     line-height: 1.3rem;
     font-size: 0.9rem;
+  }
+
+  .section-images-md {
+    background-image: url(../images/section-images/bg.png);
+    background-size: cover;
+    margin-top: -16vh;
+  }
+  .section-images-md h1 {
+    display: none;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 618px) {
@@ -717,6 +743,15 @@ body {
     width: 80px;
     height: 20px;
     cursor: pointer;
+  }
+
+  .section-images-sm {
+    background-image: url(../images/section-images/bg.png);
+    background-size: cover;
+    margin-top: -14vh;
+  }
+  .section-images-sm h1 {
+    display: none;
   }
 }
 @media only screen and (max-width: 617px) and (min-width: 425px) {
@@ -926,6 +961,15 @@ body {
     height: 20px;
     cursor: pointer;
   }
+
+  .section-images-m {
+    background-image: url(../images/section-images/bg.png);
+    background-size: cover;
+    margin-top: -12vh;
+  }
+  .section-images-m h1 {
+    display: none;
+  }
 }
 @media only screen and (max-width: 424px) {
   .navbar-mm {
@@ -1133,6 +1177,15 @@ body {
     width: 80px;
     height: 20px;
     cursor: pointer;
+  }
+
+  .section-images-m {
+    background-image: url(../images/section-images/bg.png);
+    background-size: cover;
+    margin-top: -10vh;
+  }
+  .section-images-m h1 {
+    display: none;
   }
 }
 

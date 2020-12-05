@@ -251,6 +251,17 @@
     }
     // end about
 
+    // section images
+    .section-images-md {
+        background-image: url(../images/section-images/bg.png);
+        background-size: cover;
+        margin-top: -16vh;
+        h1 {
+            display: none;
+        }
+    }
+    // end section images
+
 }
 
 // tab
@@ -555,6 +566,17 @@
 
     }
     // end about
+
+    // section images
+    .section-images-sm {
+        background-image: url(../images/section-images/bg.png);
+        background-size: cover;
+        margin-top: -14vh;
+        h1 {
+            display: none;
+        }
+    }
+    // end section images
 }
 // end tab
 
@@ -858,6 +880,17 @@
 
     }
     // end about
+
+    // section images
+    .section-images-m {
+        background-image: url(../images/section-images/bg.png);
+        background-size: cover;
+        margin-top: -12vh;
+        h1 {
+            display: none;
+        }
+    }
+    // end section images
 }
 
 // end hp
@@ -1164,5 +1197,16 @@
 
    }
    // end about
+
+   // section images
+   .section-images-m {
+    background-image: url(../images/section-images/bg.png);
+    background-size: cover;
+    margin-top: -10vh;
+    h1 {
+        display: none;
+    }
+}
+// end section images
 }
 // end mini hp
