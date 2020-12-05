@@ -329,6 +329,64 @@ body {
   width: 100%;
 }
 
+.about {
+  height: 110vh;
+  width: 100%;
+  background-image: url("../images/about/bg.png");
+  background-size: cover;
+  background-position: bottom;
+}
+.about-header {
+  margin: 0 auto 50px auto;
+  width: 45%;
+  text-align: center;
+  padding-top: 13vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-header h1 {
+  font-size: 2.8em;
+  text-transform: uppercase;
+  color: #49c9d4;
+  margin-bottom: 10px;
+}
+.about-header .line {
+  width: 70%;
+  height: 3px;
+  background-color: #49c9d4;
+}
+.about-content {
+  display: flex;
+  width: 85%;
+  justify-content: space-evenly;
+  margin: 0 auto 50px;
+}
+.about-content .first, .about-content .second {
+  width: 43%;
+}
+.about-content .first p, .about-content .second p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+}
+.about-content .first {
+  text-align: right;
+}
+.about-content .second {
+  text-align: left;
+}
+.about-button {
+  text-align: center;
+  margin: auto;
+}
+.about-button button {
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   .navbar-md .navbar-items {
     width: 100%;
@@ -440,6 +498,32 @@ body {
   .section-profil-md .section-content .images-content img {
     height: 100%;
     width: 100%;
+  }
+
+  .about-md .about-header {
+    width: 55%;
+    padding-top: 17vh;
+    margin: 0 auto 30px auto;
+  }
+  .about-md .about-header h1 {
+    font-size: 2.4em;
+  }
+  .about-md .about-header .line {
+    width: 70%;
+    height: 3px;
+  }
+  .about-md .about-content {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: 0 auto 30px;
+  }
+  .about-md .about-content .first, .about-md .about-content .second {
+    width: 43%;
+  }
+  .about-md .about-content .first p, .about-md .about-content .second p {
+    line-height: 1.3rem;
+    font-size: 0.9rem;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 618px) {
@@ -593,6 +677,46 @@ body {
   .section-profil-sm .section-content .images-content img {
     height: 100%;
     width: 100%;
+  }
+
+  .about-sm .about-header {
+    width: 60%;
+    padding-top: 17vh;
+    margin: 0 auto 20px auto;
+  }
+  .about-sm .about-header h1 {
+    font-size: 2em;
+  }
+  .about-sm .about-header .line {
+    width: 70%;
+    height: 2px;
+  }
+  .about-sm .about-content {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+  }
+  .about-sm .about-content .first, .about-sm .about-content .second {
+    width: 90%;
+    text-align: center;
+  }
+  .about-sm .about-content .first p, .about-sm .about-content .second p {
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+  }
+  .about-sm .about-content .first p {
+    margin-bottom: 10px;
+  }
+  .about-sm .about-button {
+    text-align: center;
+    margin: auto;
+  }
+  .about-sm .about-button button {
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
   }
 }
 @media only screen and (max-width: 617px) and (min-width: 425px) {
@@ -758,6 +882,50 @@ body {
     order: 1;
     width: 85%;
   }
+
+  .about-m {
+    height: 100vh;
+    margin-top: 150px;
+  }
+  .about-m .about-header {
+    width: 75%;
+    padding-top: 20vh;
+    margin: 0 auto 20px auto;
+  }
+  .about-m .about-header h1 {
+    font-size: 1.8em;
+  }
+  .about-m .about-header .line {
+    width: 70%;
+    height: 2px;
+  }
+  .about-m .about-content {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+  }
+  .about-m .about-content .first, .about-m .about-content .second {
+    width: 90%;
+    text-align: center;
+  }
+  .about-m .about-content .first p, .about-m .about-content .second p {
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+  }
+  .about-m .about-content .second {
+    display: none;
+  }
+  .about-m .about-button {
+    text-align: center;
+    margin: auto;
+  }
+  .about-m .about-button button {
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+  }
 }
 @media only screen and (max-width: 424px) {
   .navbar-mm {
@@ -921,6 +1089,50 @@ body {
   .section-profil-mm .section-content .images-content {
     order: 1;
     width: 85%;
+  }
+
+  .about-mm {
+    height: 100vh;
+    margin-top: 150px;
+  }
+  .about-mm .about-header {
+    width: 80%;
+    padding-top: 20vh;
+    margin: 0 auto 20px auto;
+  }
+  .about-mm .about-header h1 {
+    font-size: 1.6em;
+  }
+  .about-mm .about-header .line {
+    width: 70%;
+    height: 2px;
+  }
+  .about-mm .about-content {
+    display: flex;
+    width: 95%;
+    justify-content: space-evenly;
+    margin: 0 auto 20px;
+    flex-wrap: wrap;
+  }
+  .about-mm .about-content .first, .about-mm .about-content .second {
+    width: 95%;
+    text-align: center;
+  }
+  .about-mm .about-content .first p, .about-mm .about-content .second p {
+    line-height: 1.1rem;
+    font-size: 0.7rem;
+  }
+  .about-mm .about-content .second {
+    display: none;
+  }
+  .about-mm .about-button {
+    text-align: center;
+    margin: auto;
+  }
+  .about-mm .about-button button {
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
   }
 }
 

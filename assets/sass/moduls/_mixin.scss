@@ -210,6 +210,46 @@
     }
     // end section profil
 
+    // about
+    .about-md{
+        // about header
+        .about-header {
+            width: 55%;
+            padding-top: 17vh;
+            margin: 0 auto 30px auto;
+
+            h1 {
+                font-size: 2.4em;
+            }
+
+            .line {
+                width: 70%;
+                height: 3px;
+            }
+
+        }
+        // end about header
+
+         // about content
+        .about-content{
+            display: flex;
+            width: 90%;
+            justify-content: space-evenly;
+            margin: 0 auto 30px;
+
+            .first,.second{
+                width: 43%;
+
+                p{
+                    line-height: 1.3rem;
+                    font-size: 0.9rem;
+                }
+            }
+
+        }
+          // end about content
+    }
+    // end about
 
 }
 
@@ -454,6 +494,67 @@
 
     }
     // end section profil
+
+    // about
+    .about-sm{
+        // about header
+        .about-header {
+            width: 60%;
+            padding-top: 17vh;
+            margin: 0 auto 20px auto;
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .line {
+                width: 70%;
+                height: 2px;
+            }
+
+        }
+        // end about header
+
+        // about content
+        .about-content{
+            display: flex;
+            width: 90%;
+            justify-content: space-evenly;
+            margin: 0 auto 20px;
+            flex-wrap: wrap;
+
+            .first,.second{
+                width: 90%;
+                text-align: center;
+                p{
+                    line-height: 1.2rem;
+                    font-size: 0.8rem;
+                }
+            }
+            .first{
+                p{
+                    margin-bottom: 10px;
+                }
+            }
+
+        }
+        // end about content
+
+        // about button
+        .about-button {
+            text-align: center;
+            margin: auto;
+
+            button {
+                width: 80px;
+                height: 20px;
+                cursor: pointer;
+            }
+        } 
+        // end about button
+
+    }
+    // end about
 }
 // end tab
 
@@ -696,6 +797,67 @@
 
     }
     // end section profil
+
+     // about
+     .about-m{
+         height: 100vh;
+         margin-top: 150px;
+        // about header
+        .about-header {
+            width: 75%;
+            padding-top: 20vh;
+            margin: 0 auto 20px auto;
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .line {
+                width: 70%;
+                height: 2px;
+            }
+
+        }
+        // end about header
+
+        // about content
+        .about-content{
+            display: flex;
+            width: 90%;
+            justify-content: space-evenly;
+            margin: 0 auto 20px;
+            flex-wrap: wrap;
+
+            .first,.second{
+                width: 90%;
+                text-align: center;
+                p{
+                    line-height: 1.2rem;
+                    font-size: 0.8rem;
+                }
+            }
+            .second{
+               display: none;
+            }
+
+        }
+        // end about content
+
+        // about button
+        .about-button {
+            text-align: center;
+            margin: auto;
+
+            button {
+                width: 80px;
+                height: 20px;
+                cursor: pointer;
+            }
+        } 
+        // end about button
+
+    }
+    // end about
 }
 
 // end hp
@@ -941,5 +1103,66 @@
 
     }
     // end section profil
+
+    // about
+    .about-mm{
+        height: 100vh;
+        margin-top: 150px;
+       // about header
+       .about-header {
+           width: 80%;
+           padding-top: 20vh;
+           margin: 0 auto 20px auto;
+
+           h1 {
+               font-size: 1.6em;
+           }
+
+           .line {
+               width: 70%;
+               height: 2px;
+           }
+
+       }
+       // end about header
+
+       // about content
+       .about-content{
+           display: flex;
+           width: 95%;
+           justify-content: space-evenly;
+           margin: 0 auto 20px;
+           flex-wrap: wrap;
+
+           .first,.second{
+               width: 95%;
+               text-align: center;
+               p{
+                   line-height: 1.1rem;
+                   font-size: 0.7rem;
+               }
+           }
+           .second{
+              display: none;
+           }
+
+       }
+       // end about content
+
+       // about button
+       .about-button {
+           text-align: center;
+           margin: auto;
+
+           button {
+               width: 80px;
+               height: 20px;
+               cursor: pointer;
+           }
+       } 
+       // end about button
+
+   }
+   // end about
 }
 // end mini hp

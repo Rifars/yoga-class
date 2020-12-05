@@ -1,0 +1,78 @@
+@use 'mixin';
+@use 'root';
+
+
+.about {
+    height: 110vh;
+    width: 100%;
+    background-image: url("../images/about/bg.png");
+    background-size: cover;
+    background-position: bottom;
+
+    // about header
+    &-header {
+        margin: 0 auto 50px auto;
+        width: 45%;
+        text-align: center;
+        padding-top: 13vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 2.8em;
+            text-transform: uppercase;
+            color: map-get(root.$color,'fontBlue');
+            margin-bottom: 10px;
+        }
+
+        .line {
+            width: 70%;
+            height: 3px;
+            background-color: map-get(root.$color,'fontBlue');
+        }
+
+    }
+    // end about header
+
+    // about content
+    &-content{
+        display: flex;
+        width: 85%;
+        justify-content: space-evenly;
+        margin: 0 auto 50px;
+
+        .first,.second{
+            width: 43%;
+
+            p{
+                line-height: 1.5rem;
+                font-size: 1rem;
+                color: map-get(root.$color,'fontWhite');
+            }
+        }
+
+        .first{
+            text-align: right;
+        }
+        .second {
+            text-align: left;
+        }
+
+    }
+    // end about content
+
+    // about button
+    &-button {
+        text-align: center;
+        margin: auto;
+
+        button {
+            width: 100px;
+            height: 25px;
+            cursor: pointer;
+        }
+    } 
+    // end about button
+}
