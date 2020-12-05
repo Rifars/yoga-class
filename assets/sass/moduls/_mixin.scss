@@ -154,6 +154,63 @@
     }
     // end cards
 
+    // section profil 
+    .section-profil-md {
+        // section header
+        .section-header {
+            width: 470px;
+            height: 50px;
+
+            h1 {
+                font-size: 1.3em;
+            }
+        }
+        // end section header
+
+        // section content
+        .section-content{
+            // text content
+            .text-content{
+                width: 45%;
+                p {
+                    line-height: 24px;
+                    span{
+                        display: none;
+                    }
+                }
+
+                .read-more {
+                    i {
+                        font-size: 3.3rem;
+                    }
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+            // end text content
+
+            // images content
+            .images-content{
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                background-color: map-get(root.$color,'fontBlue');
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            // end images content
+        }
+        // end section content
+
+
+    }
+    // end section profil
+
+
 }
 
 // tab
@@ -339,6 +396,64 @@
         // end card three
     }
     // end cards
+
+    // section profil 
+    .section-profil-sm {
+        // section header
+        .section-header {
+            width: 450px;
+            height: 50px;
+
+            h1 {
+                font-size: 1.2em;
+            }
+        }
+        // end section header
+
+        // section content
+        .section-content{
+            width: 95%;
+            // text content
+            .text-content{
+                width: 45%;
+                p {
+                    line-height: 24px;
+                    font-size: .9rem;
+                    span{
+                        display: none;
+                    }
+                }
+
+                .read-more {
+                    i {
+                        font-size: 3.1rem;
+                    }
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            // end text content
+
+            // images content
+            .images-content{
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                background-color: map-get(root.$color,'fontBlue');
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            // end images content
+        }
+        // end section content
+
+
+    }
+    // end section profil
 }
 // end tab
 
@@ -526,6 +641,61 @@
         }
     }
     // end cards
+
+    // section profil 
+    .section-profil-m {
+        // section header
+        .section-header {
+            width: 83%;
+            height: 50px;
+            margin: 20px auto;
+
+            h1 {
+                font-size: 1.2em;
+            }
+        }
+        // end section header
+
+        // section content
+        .section-content{
+            width: 95%;
+            flex-wrap: wrap;
+            // text content
+            .text-content{
+                order: 2;
+                width: 85%;
+                p {
+                    line-height: 22px;
+                    font-size: .9rem;
+                    span{
+                        display: none;
+                    }
+                }
+
+                .read-more {
+                    position: relative;
+                    i {
+                        font-size: 3rem;
+                    }
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+            // end text content
+
+            // images content
+            .images-content{
+                order: 1;
+                width: 85%;
+            }
+            // end images content
+        }
+        // end section content
+
+
+    }
+    // end section profil
 }
 
 // end hp
@@ -716,5 +886,60 @@
         }
     }
     // end cards
+
+    // section profil 
+    .section-profil-mm {
+        // section header
+        .section-header {
+            width: 83%;
+            height: 50px;
+            margin: 20px auto;
+
+            h1 {
+                font-size: 1em;
+            }
+        }
+        // end section header
+
+        // section content
+        .section-content{
+            width: 95%;
+            flex-wrap: wrap;
+            // text content
+            .text-content{
+                order: 2;
+                width: 85%;
+                p {
+                    line-height: 22px;
+                    font-size: .9rem;
+                    span{
+                        display: none;
+                    }
+                }
+
+                .read-more {
+                    position: relative;
+                    i {
+                        font-size: 2.8rem;
+                    }
+                    a {
+                        font-size: .8rem;
+                    }
+                }
+            }
+            // end text content
+
+            // images content
+            .images-content{
+                order: 1;
+                width: 85%;
+            }
+            // end images content
+        }
+        // end section content
+
+
+    }
+    // end section profil
 }
 // end mini hp
