@@ -39,3 +39,16 @@ cards.addEventListener('click',(e) => {
     }
     // console.log(card[number]);
 });
+
+
+
+let hamburger = document.querySelector('.navbar-hamburger');
+let itemsHamburger = Array.from(document.querySelectorAll('.navbar-hamburger .line'));
+
+
+
+
+hamburger.addEventListener('click',() => {
+    itemsHamburger.map(item => item.classList.toggle('active'));
+    console.log(itemsHamburger)
+});

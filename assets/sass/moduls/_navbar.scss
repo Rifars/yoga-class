@@ -48,7 +48,19 @@
             width: 63%;
             background-color: map-get(root.$color,'fontBlue');
             border-radius: 20px;
-
+            transition: .3s;
+        }
+        .line.active:nth-child(1) {
+            transform: rotateZ(45deg)translateX(3px)translateY(3px);
+            transition: .3s;
+        }
+        .line.active:nth-child(2) {
+            display: none;
+            transition: .3s;
+        }
+        .line.active:nth-child(3) {
+            transition: .3s;
+            transform: rotateZ(-45deg)translateY(-10px)translateX(10px);
         }
 
     }
