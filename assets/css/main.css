@@ -465,6 +465,21 @@ body {
   cursor: pointer;
 }
 
+.license {
+  width: 100%;
+  background-color: #49c9d4;
+  box-sizing: border-box;
+  padding: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.license a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
   .navbar-md .navbar-items {
     width: 100%;

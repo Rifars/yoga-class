@@ -1,0 +1,19 @@
+@use 'mixin';
+@use 'root';
+
+.license {
+    width: 100%;
+    background-color: map-get(root.$color,'fontBlue');
+    box-sizing: border-box;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    a {
+        // display:block;
+        text-align: center;
+        text-decoration: none;
+        font-size: .9rem;
+
+    }
+}

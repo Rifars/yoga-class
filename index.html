@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- fontawesome -->
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <!-- style css -->
@@ -35,39 +38,39 @@
     <!-- header -->
     <header class="header header-md header-sm header-m header-mm">
         <!-- logo header -->
-        <div class="header-logo">
+        <div class="header-logo" data-aos="fade-up">
             <img src="assets/images/header/logo.png" alt="logo">
         </div>
         <!-- end logo -->
 
         <!-- heading header-->
-        <div class="header-heading">
+        <div class="header-heading" data-aos="fade-up" data-aos-delay="200">
             <h1>Yoga<span>Classes</span></h1>
             <div class="line"></div>
         </div>
         <!-- end heading header -->
 
         <!-- content  header -->
-        <div class="header-content">
+        <div class="header-content" data-aos="fade-up" data-aos-delay="400">
             <h1>body harmony</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, velit non fuga aspernatur asperiores laborum nobis pariatur quas quia enim ut architecto dignissimos ducimus iure laudantium ratione assumenda voluptatibus modi! Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <button type="button">More</button>
+        </div>
     </header>
         <!-- end content  header-->
 
-    </div>
     <!-- end header -->
 
     <!-- main -->
-    <main class="main main-md main-sm main-m main-mm">
+    <main class="main main-md main-sm main-m main-mm" >
         <!-- main header -->
-        <div class="main-header">
-            <h1> 
-                <i class="fas fa-caret-right"></i> 
+        <div class="main-header" >
+            <h1 data-aos="fade-up"> 
+                <i class="fas fa-caret-right" data-aos="fade-right"></i> 
                 Our Philosophy
-                <i class="fas fa-caret-left"></i> 
+                <i class="fas fa-caret-left" data-aos="fade-left"></i> 
             </h1>
             <div class="line"></div>
         </div>
@@ -75,13 +78,13 @@
 
         <!-- main content -->
         <div class="main-content">
-            <section class="left">
+            <section class="left" data-aos="fade-left">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto repellat natus fugit sapiente nam, iure sequi fuga nesciunt nobis debitis ut doloremque, quae facilis excepturi. Eaque veritatis dolores et!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto repellat natus fugit sapiente nam, iure sequi fuga nesciunt nobis debitis ut doloremque, quae facilis excepturi. 
                 </p>
             </section>
-            <section class="right">
+            <section class="right" data-aos="fade-right">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto repellat natus fugit sapiente nam, iure sequi fuga nesciunt nobis debitis ut doloremque, quae facilis excepturi. Eaque veritatis dolores et!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iusto repellat natus fugit sapiente nam, iure sequi fuga nesciunt nobis debitis ut doloremque, quae facilis excepturi.
@@ -91,7 +94,7 @@
         <!-- end main content -->
 
         <!-- main tomboll -->
-        <div class="main-button">
+        <div class="main-button" data-aos="fade-up">
             <button class="more">Read More</button>
         </div>
         <!-- end main tombol -->
@@ -112,14 +115,14 @@
             <!-- end title -->
 
             <!-- card images -->
-            <div class="card-images">   
+            <div class="card-images" data-aos="flip-left">
                 <img src="assets/images/card/card1.png" alt="card1">
                 
             </div>
             <!-- end card images -->
 
             <!-- section -->
-            <div class="card-section">
+            <div class="card-section" data-aos="fade-up">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci voluptas hic, eos tempora odit tempore cum repudiandae provident atque sunt.
                 </p>
@@ -135,19 +138,19 @@
         <!-- card -->
         <div class="card card1 two">
             <!-- title -->
-            <div class="card-title">
+            <div class="card-title" data-aos="fade-up"   data-aos-delay = "100">
                 <h1>Harmony Your Body</h1>
             </div>
             <!-- end title -->
 
             <!-- card images -->
-            <div class="card-images">
+            <div class="card-images" data-aos="fade-up"   data-aos-delay = "100">
                 <img src="assets/images/card/card2.png" alt="card2">
             </div>
             <!-- end card images -->
 
             <!-- section -->
-            <div class="card-section">
+            <div class="card-section" data-aos="fade-up">
                 <p>
                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, obcaecati molestias libero repudiandae eum illo blanditiis esse natus officiis, asperiores soluta? Incidunt.
                 </p>
@@ -162,21 +165,21 @@
         <!-- end card -->
 
         <!-- card -->
-        <div class="card card2 three">
+        <div class="card card2 three" >
             <!-- title -->
-            <div class="card-title">
+            <div class="card-title" data-aos="fade-up"   data-aos-delay = "150">
                 <h1>Yoga For Beginners</h1>
             </div>
             <!-- end title -->
 
             <!-- card images -->
-            <div class="card-images">
-                <img src="assets/images/card/card3.png" alt="card3">
+            <div class="card-images" data-aos="flip-right"   data-aos-delay = "150">
+                <img src="assets/images/card/card3.png" alt="card3" >
             </div>
             <!-- end card images -->
 
             <!-- section -->
-            <div class="card-section">
+            <div class="card-section" data-aos="fade-up"> 
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque aliquid minima id vitae harum iusto? Minima doloremque nesciunt voluptatem!
                 </p>
@@ -198,7 +201,7 @@
     <!-- section profil  -->
     <section class="section-profil section-profil-md section-profil-sm section-profil-m section-profil-mm">
         <!-- header section -->
-        <div class="section-header">
+        <div class="section-header" data-aos="fade-up">
             <h1>YOGA FOR BEGINNERS</h1>
         </div>
         <!-- end header section -->
@@ -206,7 +209,7 @@
         <!-- section content -->
         <div class="section-content">
             <!-- text content -->
-            <div class="text-content">
+            <div class="text-content" data-aos="fade-left" data-aos-delay="200">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illo nemo quaerat! Explicabo praesentium soluta blanditiis veritatis tempore. A quaerat cumque odio possimus reprehenderit commodi alias blanditiis sed fugit quod. <br>
                    <span>
@@ -222,7 +225,7 @@
             <!-- end text content -->
 
             <!-- images content -->
-            <div class="images-content">
+            <div class="images-content" data-aos="fade-right" data-aos-delay="200">
                 <img src="assets/images/section-profil/img.png" alt="profil">
             </div>
             <!-- end images content -->
@@ -234,7 +237,7 @@
     <!-- about -->
     <div class="about  about-md about-sm about-m about-mm">
         <!-- about header -->
-        <div class="about-header">
+        <div class="about-header" data-aos="fade-up">
             <h1>Our Methodology</h1>
             <div class="line"></div>
         </div>
@@ -243,7 +246,7 @@
         <!-- about content -->
         <div class="about-content">
             <!-- section 1 -->
-            <section class="first">
+            <section class="first" data-aos="fade-left" data-aos-delay="250">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquam optio error rerum facilis nemo voluptas, aperiam pariatur culpa ducimus fugiat cumque iure laborum ipsum repudiandae nulla minus possimus hic sapiente consequatur autem totam. Distinctio veniam ullam beatae asperiores laborum enim quas commodi corporis doloremque maxime placeat eaque, consequuntur delectus! Culpa quaerat ea optio est autem quidem veniam laboriosam. Ad, nemo quibusdam? Quas fuga illum sed vitae, similique tenetur consequatur pariatur sapiente laudantium excepturi, nulla inventore. Explicabo nemo id corporis?
                 </p>
@@ -251,7 +254,7 @@
             <!-- end section 1 -->
 
             <!-- section 1 -->
-            <section class="second">
+            <section class="second" data-aos="fade-right" data-aos-delay="250">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquam optio error rerum facilis nemo voluptas, aperiam pariatur culpa ducimus fugiat cumque iure laborum ipsum repudiandae nulla minus possimus hic sapiente consequatur autem totam. Distinctio veniam ullam beatae asperiores laborum enim quas commodi corporis doloremque maxime placeat eaque, consequuntur delectus! Culpa quaerat ea optio est autem quidem veniam laboriosam. Ad, nemo quibusdam? Quas fuga illum sed vitae, similique tenetur consequatur pariatur sapiente laudantium excepturi, nulla inventore. Explicabo nemo id corporis?
                 </p>
@@ -261,7 +264,7 @@
         <!-- end about content -->
 
         <!-- about button -->
-        <div class="about-button">
+        <div class="about-button" data-aos="fade-up" data-aos-delay="300">
             <button type="button">Read More</button>
         </div>
         <!-- end about button -->
@@ -282,7 +285,7 @@
         <!-- footer list -->
         <div class="footer-list">
             <!-- contact list -->
-            <div class="footer-contact">
+            <div class="footer-contact" data-aos="fade-left">
                 <div class="header-contact list">
                     <i class="fas fa-caret-right"></i> 
                     <h1>contact</h1>
@@ -296,7 +299,7 @@
             <!-- end contact list -->
 
             <!-- about list  -->
-            <div class="footer-about">
+            <div class="footer-about" data-aos="fade-left" data-aos-delay="200">
                 <div class="header-about list">
                     <i class="fas fa-caret-right"></i> 
                     <h1>about</h1>
@@ -310,7 +313,7 @@
             <!-- end about list -->
 
             <!-- follow us list -->
-            <div class="footer-follow-us">
+            <div class="footer-follow-us" data-aos="fade-left" data-aos-delay="300">
                 <div class="header-follow-us list">
                     <i class="fas fa-caret-right"></i> 
                     <h1>follow us</h1>
@@ -323,12 +326,21 @@
                 </div>
             </div>
             <!-- end folllow us list  -->
+            
         </div>
         <!-- end footer list -->
+        <!--  -->
     </footer>
     <!-- end footer -->
+    <div class="license">
+        <a href="http://www.freepik.com">Designed by Freepik</a>
+    </div>
 
     <!-- script js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 1000,});
+    </script>
     <script src="assets/script/script.js"></script>
 </body>
 </html>
