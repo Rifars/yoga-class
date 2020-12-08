@@ -40,9 +40,9 @@
                 justify-content: space-around;
                 i {
                     font-size: 1.5rem;
-                }
-                &:hover {
-                    color: map-get(root.$color,'fontBlack2');
+                    &:hover {
+                        color: map-get(root.$color,'fontBlack2');
+                    }
                 }
             }
         }
